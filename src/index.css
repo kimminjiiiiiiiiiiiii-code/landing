@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom palette from Brand Blueprint */
+  --color-primary-brand: #006e2f;
+  --color-primary-container: #22c55e;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #004b1e;
+  --color-secondary-brand: #505f76;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #111c2d;
+  --color-on-surface-variant: #3d4a3d;
+  
+  --color-surface-deep: #f9f9ff;
+  --color-surface-lowest: #ffffff;
+  --color-surface-low: #f0f3ff;
+  --color-surface-container: #e7eeff;
+  --color-surface-container-highest: #d8e3fb;
+  --color-outline-custom: #6d7b6c;
+  --color-outline-variant: #bccbb9;
+}
+
+@layer utilities {
+  .bento-card {
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+  }
+  .bento-card:hover {
+    transform: translateY(-8px);
+  }
+}

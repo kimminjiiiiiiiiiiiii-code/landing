@@ -1,0 +1,10 @@
+{
+  "name": "초보식집사친구",
+  "description": "인공지능(AI) 식물 분석, 스마트 물주기 달력 및 식물 집사 커뮤니티로 반려식물을 더 건강하게 자라게 하는 초보 식집사 동반자 플랫폼",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
