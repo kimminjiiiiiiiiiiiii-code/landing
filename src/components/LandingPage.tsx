@@ -44,12 +44,14 @@ export default function LandingPage({ onEnterApp }: LandingPageProps) {
             </button>
           </div>
 
-          <button
-            onClick={() => onEnterApp("welcome")}
-            className="bg-[#006e2f] hover:bg-[#006e2f]/90 text-white px-5 py-2 rounded-lg font-semibold text-sm transition-all duration-250 cursor-pointer shadow-xs"
+          <a
+            href="https://neon-delta-88.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#006e2f] hover:bg-[#006e2f]/90 text-white px-5 py-2 rounded-lg font-semibold text-sm transition-all duration-250 cursor-pointer shadow-xs inline-flex items-center"
           >
             지금 시작하기
-          </button>
+          </a>
         </div>
       </nav>
 
@@ -68,13 +70,15 @@ export default function LandingPage({ onEnterApp }: LandingPageProps) {
               초보 식집사도 전문가처럼, AI 분석과 기록으로 반려식물을 건강하게 키워보세요. 디지털 젠을 경험하는 가장 쉬운 방법입니다.
             </p>
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <button
-                onClick={() => onEnterApp("welcome")}
+              <a
+                href="https://neon-delta-88.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center h-14 px-8 bg-[#006e2f] text-white rounded-full font-bold text-sm tracking-wide shadow-lg shadow-[#006e2f]/20 hover:scale-105 hover:bg-[#006e2f]/95 active:scale-100 transition-all cursor-pointer"
               >
                 무료로 대시보드 입장
                 <ChevronRight className="w-4 h-4 ml-1" />
-              </button>
+              </a>
               <button
                 onClick={() => onEnterApp("scanner")}
                 className="inline-flex items-center justify-center h-14 px-8 bg-white border border-[#bccbb9] text-[#006e2f] rounded-full font-bold text-sm hover:bg-emerald-50/50 transition-all cursor-pointer"
@@ -287,12 +291,14 @@ export default function LandingPage({ onEnterApp }: LandingPageProps) {
             더 이상 집 안에 홀로 시들어가는 식물을 보며 미안해하고 슬퍼하지 마세요.<br className="hidden sm:block"/>
             초보식집사친구 AI 대시보드가 당신의 촉촉한 플랜트 라이프를 든든하게 지켜드립니다.
           </p>
-          <button 
-            onClick={() => onEnterApp("welcome")}
+          <a 
+            href="https://neon-delta-88.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex h-14 px-8 bg-white text-[#006e2f] rounded-full font-bold text-sm items-center justify-center hover:bg-neutral-50 active:scale-95 transition-all shadow-md shadow-emerald-950/20 cursor-pointer"
           >
             앱 바로가기
-          </button>
+          </a>
         </div>
       </section>
 
